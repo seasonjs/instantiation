@@ -18,6 +18,8 @@ jobs:
           node-version: 16
           registry-url: https://registry.npmjs.org/
       - uses: pnpm/action-setup@v2.2.4
+        with:
+          version: v8.4.0
       - run: pnpm i
       - run: pnpm run compile
       - run: npm publish
