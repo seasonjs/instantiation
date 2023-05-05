@@ -1,0 +1,17 @@
+{
+  "name": "@seasonjs/instantiation",
+  "version": "0.0.1",
+  "description": "Js instantiation library which copy from vscode",
+  "main": "dist/index.js",
+  "types": "dist/**/*.d.ts",
+  "scripts": {
+    "compile": "tsc -p tsconfig.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.16.3",
+    "typescript": "^5.0.4"
+  }
+}
