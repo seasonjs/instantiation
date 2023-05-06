@@ -1,6 +1,6 @@
 
 /*---------------------------------------------------------------------------------------------
- *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Copyright (c) seasonjs. All rights reserved.
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
@@ -15,7 +15,7 @@ import {
   _util
 } from './instantiation';
 import {ServiceCollection} from './serviceCollection';
-import {LinkedList, Event, IdleValue, toDisposable, illegalState} from '../lib';
+import {LinkedList, Event, IdleValue, toDisposable, illegalState} from '../base';
 
 
 // TRACING

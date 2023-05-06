@@ -1,21 +1,18 @@
 {
   "compilerOptions": {
-    "noEmit": false,
-    "target": "es2016",
+    "target": "ES2016",
     "declaration": true,
-    "module": "ESNext",
-    "emitDeclarationOnly": true,
+    "module": "CommonJS",
     "moduleResolution": "node",
     "experimentalDecorators": true,
-    "baseUrl": "./src",
-    "declarationDir": "./dist",
+    "baseUrl": ".",
     "lib": [
       "dom",
       "es2021.promise"
     ]
   },
   "include": [
-    "src/**/*.ts",
+    "index.ts",
   ],
   "exclude": [
     "node_modules",
