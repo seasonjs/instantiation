@@ -1,6 +1,6 @@
 {
   "name": "@seasonjs/instantiation",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Js instantiation library which copy from vscode",
   "main": "dist/instantiation.umd.js",
   "module": "dist/instantiation.mjs",
