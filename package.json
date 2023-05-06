@@ -1,18 +1,27 @@
 {
   "name": "@seasonjs/instantiation",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Js instantiation library which copy from vscode",
-  "main": "dist/index.js",
-  "types": "dist/**/*.d.ts",
+  "main": "dist/instantiation.umd.js",
+  "module": "dist/instantiation.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "compile": "tsc -p tsconfig.json"
+    "compile": "vite build && tsc -p tsconfig.json",
+    "test": "vitest",
+    "coverage": "vitest run --coverage",
+    "preview:coverage": "vite preview --outDir ./coverage"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@types/node": "^18.16.3",
-    "tslib": "^2.5.0",
-    "typescript": "^5.0.4"
+    "@vitest/coverage-c8": "^0.31.0",
+    "typescript": "^5.0.4",
+    "vite": "^4.3.5",
+    "vitest": "^0.31.0"
   }
 }

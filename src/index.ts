@@ -8,9 +8,9 @@ export {
   ImmortalReference,
   AsyncReferenceCollection,
   DisposableMap
-} from './lib'
+} from './base'
 
-export type {IDisposable, IReference} from './lib'
+export type {IDisposable, IReference} from './base'
 
 export {
   SyncDescriptor

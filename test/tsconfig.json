@@ -1,4 +1,5 @@
 {
+  "extends": "../tsconfig.json",
   "compilerOptions": {
     "noEmit": false,
     "target": "es2016",
@@ -7,16 +8,14 @@
     "emitDeclarationOnly": true,
     "moduleResolution": "node",
     "experimentalDecorators": true,
-    "baseUrl": "./src",
+    "baseUrl": ".",
     "declarationDir": "./dist",
     "lib": [
       "dom",
       "es2021.promise"
     ]
   },
-  "include": [
-    "src/**/*.ts",
-  ],
+  "include": ["./**/*.ts"],
   "exclude": [
     "node_modules",
     "**/*.spec.ts"
