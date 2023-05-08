@@ -1,7 +1,7 @@
 import {Emitter, Event} from '../src/base';
 import {dispose} from '../src/base';
 import {SyncDescriptor} from '../src';
-import {createDecorator, IInstantiationService, ServicesAccessor} from '../src/instantiation/instantiation';
+import {createDecorator, IInstantiationService, ServicesAccessor} from '../src';
 import {InstantiationService} from '../src';
 import {ServiceCollection} from '../src';
 import {describe, expect, test} from "vitest";

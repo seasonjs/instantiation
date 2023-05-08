@@ -19,8 +19,10 @@ export {
 export {registerSingleton, getSingletonServiceDescriptors} from './instantiation/extensions'
 export type {InstantiationType} from './instantiation/extensions'
 
-export {createDecorator, refineServiceDecorator} from './instantiation/instantiation'
-export type {BrandedService, IConstructorSignature, ServicesAccessor} from './instantiation/instantiation'
+export {createDecorator, refineServiceDecorator, IInstantiationService} from './instantiation/instantiation'
+export type {
+  BrandedService, IConstructorSignature, ServicesAccessor
+} from './instantiation/instantiation'
 
 export {InstantiationService} from './instantiation/instantiationService'
 
